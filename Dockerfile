@@ -14,4 +14,4 @@ RUN apt-get -y install git
 RUN gem install --no-ri --no-rdoc rake
 RUN gem install --no-ri --no-rdoc bundler
 
-CMD [ /bin/bash ]
+CMD [ "/bin/bash" ]
